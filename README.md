@@ -1,2 +1,1 @@
-StudentVM
-=========
+more about StudentVM: http://edu.vpolozov.name/studentasm
