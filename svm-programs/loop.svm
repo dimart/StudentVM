@@ -1,0 +1,4 @@
+label:
+    ldc 10
+    jmp label
+hlt

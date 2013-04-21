@@ -1,0 +1,7 @@
+jmp labelTwo
+labelOne:
+ ldc 4
+labelTwo:
+ ldc 8
+jmp labelOne
+hlt

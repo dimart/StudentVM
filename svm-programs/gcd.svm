@@ -1,0 +1,13 @@
+ldc 2330
+ldc 3770 
+cycle:
+st 0
+ld 0
+mod
+st 1
+ld 0
+ld 1
+ld 1
+br cycle
+add
+hlt
