@@ -1,0 +1,32 @@
+;Посчитать сумму чётных чисел Фибоначчи не превосходящих 2000000
+  ldc 0
+  st 3
+  ldc 1
+  st 1
+  ldc 1
+  st 2
+begin:
+  ld 2
+  ld 1
+  st 2
+  ld 2
+  add
+  st 1
+  ld 1
+  ldc 2
+  mod 
+  br begin
+  ld 1
+  ldc 2000000
+  cmp
+  ldc 1
+  add
+  br exit
+  ld 3
+  ld 1
+  add
+  st 3
+  jmp begin
+exit:
+  ld 3
+hlt
