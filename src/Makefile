@@ -1,2 +1,2 @@
 all:
-	gcc /core.c core.h exceptionHandler.c exceptionHandler.h global.h interpretator.c interpretator.h IOSystem.c IOSystem.h main.c memory.c memory.h parser.c parser.h stack.c stack.h structures.h -o runVM.exe
+	gcc core.c core.h exceptionHandler.c exceptionHandler.h global.h interpretator.c interpretator.h IOSystem.c IOSystem.h main.c memory.c memory.h parser.c parser.h stack.c stack.h structures.h -o SVM.exe
