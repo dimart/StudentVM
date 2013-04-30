@@ -30,7 +30,7 @@ int loadDataToMemory(Memory* memory, long int data, unsigned long int address)
 {
     if (address > MAX_MEMORY_SIZE)
     {
-        checkForErrors(OUT_OF_BOUNDS_ADDRESS);
+        error(OUT_OF_BOUNDS_ADDRESS);
         return 0;
     }
     else if (address > memory->currentAddress)
