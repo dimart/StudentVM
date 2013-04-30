@@ -14,10 +14,9 @@ If you build project manually then add the file 'StudentVM.ini' with the followi
   
 After '=' you need to specify the amount of memory allocated for virtual machine. 
 
-
 SYNOPSIS
   
-  svm <path-to-svm-program> [-sm]
+ $runVM Required:[path-to-svm-program] Optional:[-sm]
 
 OPTIONS
   
