@@ -1,22 +1,24 @@
-StudentVM (SVM)
+StudentVM
 
 How to build it?
 
-RUN Makefile TO BUILD THE PROJECT
+Run makefile to build the project
   
-IF YOU BUILD MANUALLY THEN ADD THE FILE StudentVM.ini WITH THE FOLLOWING LINE:
-MemorySize = 
+If you build project manually then add the file 'StudentVM.ini' with the following line:
+'MemorySize =' 
   
-AFTER = YOU NEED TO SPECIFY THE AMOUNT OF MEMORY ALLOCATED FOR VIRTUAL MACHINE. 
-  (Measured in cells) 
+After '=' you need to specify the amount of memory allocated for virtual machine. 
 
 DESCRIPTION
+  
   StudentVM is a virtual machine (using the ideas of Harvard architecture), written in С language.
   Latest SVM documentation can be viewed at: http://edu.vpolozov.name/studentasm
 
 SYNOPSIS
+  
   svm <path-to-svm-program> [-sm]
 
 OPTIONS
+  
   -sm 
      Show memory content  after execute.
