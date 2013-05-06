@@ -116,7 +116,7 @@ Command expression(Expression *expr)
     expr->type = NUL;
     expr->current = 0;
     result = next(expr);
-    if (result.opcode == ERR || expr->type == comment || result.opcode == LBL)
+    if (result.opcode == ERR || expr->type == comment) // || result.opcode == LBL)
     {
         return result;
     }
