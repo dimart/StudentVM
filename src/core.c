@@ -18,6 +18,5 @@ int runVM(VM* SVM, char* fileName)
     if (SVM->mode) getStateOfMemory(SVM->memory);
     showStack(SVM->stack);
     free(SVM->memory.space);
-    free(SVM);
     return 1;
 }

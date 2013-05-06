@@ -25,6 +25,7 @@ void error(int errorCode)
         break;
     case DEVISION_BY_ZERO:
         fprintf(stderr, "Error: Division by zero. \n");
+        break;
     case OUT_OF_BOUNDS_ADDRESS:
         fprintf(stderr, "Error: refer to the memory with a negative address or out of bounds of available memory.\n");
         break;

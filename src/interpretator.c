@@ -143,6 +143,11 @@ int interpret(VM* SVM, const Code* code)
             else
             {
                 a = pop(&SVM->stack);
+                if (a == 0)
+                {
+                    error(DEVISION_BY_ZERO);
+                    return 0;
+                }
                 b = pop(&SVM->stack);
                 push(&SVM->stack, b % a);
                 break;
